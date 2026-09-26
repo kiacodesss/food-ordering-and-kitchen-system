@@ -17,6 +17,9 @@ The system supports menu selection, order calculation, receipt printing, order t
 ### Food Ordering & Kitchen System
 ![Food Ordering & Kitchen System](preview/preview.jpg)
 
+### Sample Receipt
+![Sample Receipt](preview/receipt-preview.jpg)
+
 ---
 
 ## ✨ Features
@@ -124,6 +127,8 @@ These JAR files provide the compiled versions of the Food Ordering System and Ki
 ## 🎓 Project Information
 
 This project was developed as part of an academic project for the Intermediate Programming course. It was created to apply and demonstrate Java programming concepts, GUI development, file handling, and application integration using Java and NetBeans.
+
+---
 
 ## 📄 License
 
