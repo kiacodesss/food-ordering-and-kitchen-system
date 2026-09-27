@@ -1,4 +1,4 @@
-# 🍜 Food Ordering & Kitchen System
+# 🍜 Food Ordering Kiosk & Kitchen System
 
 > A Java Swing-based food ordering system with an integrated kitchen terminal for managing and displaying customer orders.
 
@@ -6,7 +6,7 @@
 
 ## 📌 About the Project
 
-The **Food Ordering & Kitchen System** is a Java Swing desktop application developed as an academic project. It combines a customer-facing food ordering interface with a kitchen terminal that monitors and displays incoming orders.
+The **Food Ordering Kiosk & Kitchen System** is a Java Swing desktop application developed as an academic project. It combines a customer-facing food ordering interface with a kitchen terminal that monitors and displays incoming orders.
 
 The system supports menu selection, order calculation, receipt printing, order tracking, and communication between the food ordering system and kitchen terminal through a shared `Orders.txt` file.
 
@@ -14,8 +14,8 @@ The system supports menu selection, order calculation, receipt printing, order t
 
 ## 👀 Preview
 
-### Food Ordering & Kitchen System
-![Food Ordering & Kitchen System](preview/preview.jpg)
+### Food Ordering Kiosk & Kitchen System
+![Food Ordering Kiosk & Kitchen System](preview/preview.jpg)
 
 ### Sample Receipt
 ![Sample Receipt](preview/receipt-preview.jpg)
@@ -46,15 +46,15 @@ The system supports menu selection, order calculation, receipt printing, order t
 
 ## 🧩 Key Systems
 
-### ⭐ Food Ordering System
+### 🍱 Food Ordering System
 
 The customer-facing application allows users to browse the menu, select quantities, review their order, calculate the total, and complete the transaction. Completed orders are saved to `Orders.txt` for the kitchen terminal.
 
-### ⭐ Kitchen Terminal
+### 👨‍🍳 Kitchen Terminal
 
 The kitchen terminal continuously monitors `Orders.txt` and automatically updates when a new order is received. Each order is displayed with its order number, date, time, and items to help organize kitchen operations.
 
-### ⭐ Order Communication
+### 📝 Order Communication
 
 The two applications communicate through a shared `Orders.txt` file:
 
@@ -107,26 +107,24 @@ Kitchen Terminal
    ```bash
    C:\Kitchen Terminal\Orders.txt
    ```
-8. Build the project in NetBeans.
+8. Clean and build the project in NetBeans.
 9. Run the application.
 
 ---
 
 ## 📦 Release
 
-A ready-to-run release is available under GitHub Releases.
+A ready-to-run release is available under **GitHub Releases**.
 
-The release package includes:
-- **FoodOrderingSystem.jar**
-- **KitchenTerminalUI.jar**
+**[Download Food Ordering Kiosk & Kitchen System for Windows](../../releases/latest)**
 
-These JAR files provide the compiled versions of the Food Ordering System and Kitchen Terminal.
+These JAR files provide the compiled versions of the Food Ordering System and Kitchen Terminal. This can be used to run the application without opening the project in NetBeans.
 
 ---
 
 ## 🎓 Project Information
 
-This project was developed as part of an academic project for the Intermediate Programming course. It was created to apply and demonstrate Java programming concepts, GUI development, file handling, and application integration using Java and NetBeans.
+This project was developed as part of an academic project for the **Intermediate Programming** course. It was created to apply and demonstrate Java programming concepts, GUI development, file handling, and application integration using Java and NetBeans.
 
 ---
 
